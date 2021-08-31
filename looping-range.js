@@ -4,8 +4,7 @@
 function range (start, end, step){
   let array = [];
   if (start < end && step > 0){
-    //array.push(start);
-    for (var i = start; i <= end; i+= step){
+    for (var i = start; i <= end; i += step){
       array.push(i);
     }
   }
